@@ -5,7 +5,7 @@ const projectsData = [
     and more. Google has many features to help you find exactly what you're looking
     for.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: '/game/',
   },
   {
     title: 'The Time Machine',
