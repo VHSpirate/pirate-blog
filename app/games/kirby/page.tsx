@@ -1,6 +1,6 @@
-import { genPageMetadata } from 'app/seo';
+import { genPageMetadata } from 'app/seo'
 
-export const metadata = genPageMetadata({ title: 'Kirby' });
+export const metadata = genPageMetadata({ title: 'Kirby' })
 
 export default function GamePage() {
   return (
@@ -11,15 +11,19 @@ export default function GamePage() {
             Kirby Egg Catcher
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            A to START, R to RESTART, W to EAT, good luck :^)
-            </p>
-            </div>
-            <div className="container py-12">
-          <iframe src="/static/games/kirby/KirbyEggCatcher.html"width="100%" height="500px" frameBorder="0"></iframe>
-
-            
+            A to START, R to RESTART, W to EAT, good luck.
+          </p>
+        </div>
+        <div className="container py-12">
+          <iframe 
+            src="/static/games/kirby/KirbyEggCatcher.html" 
+            width="100%" 
+            height="500px" 
+            frameBorder="0" 
+            title="Kirby Egg Catcher Game"
+          ></iframe>
         </div>
       </div>
     </>
-  );
+  )
 }
