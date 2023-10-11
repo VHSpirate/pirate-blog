@@ -13665,7 +13665,6 @@ else if (typeof define === 'function' && define['amd'])
 else if (typeof exports === 'object')
   exports["Godot"] = Godot;
 
-
 const Features = { // eslint-disable-line no-unused-vars
 	/**
 	 * Check whether WebGL is available. Optionally, specify a particular version of WebGL to check for.

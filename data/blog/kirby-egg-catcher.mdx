@@ -1,0 +1,38 @@
+---
+title: Kirby's egg Catcher
+date: '2023-10-10'
+tags: ['godot', 'code', 'games']
+draft: false
+summary: Feeling the godot engine with a mini project
+images: []
+---
+
+Format: ![Alt Text](/static/images/kirby/banner.png)
+## Introduction
+
+On the 12th of September '23, Unity announced a significant price increase plan in their terms of service, and the internet went wild. At the time, I was developing a hobby project, making a clone of Hotline Miami. I thought that this news wouldn't affect me, but for some reason, I never opened the project again. Perhaps later, I'll transition it to Godot. Anyway, I decided to start using Godot, and I've always wanted to recreate this mini-game.
+
+
+
+## Kirby's Egg Catcher
+
+The objective in this mini-game is to eat the eggs while avoiding the bombs that King Dedede throws at you between the eggs. Simple as that.
+
+This mini-game was in the original Kirby's Adventure from the NES. I remember playing this game when I was about 5. The cartridge was pink, and I think my brother traded it for a Punch-Out or something similar. Come to think of it, what did happen to our NES?
+
+Anyway, this mini-game is hard. There's no way that 5-year-old me would've gotten 30 eggs. At the end of the sequence, there's like a 0.1-second frame to switch from eating an egg to eating a bomb to get the perfect score, and you only had one try. Even now, it took me several attempts, reloading the mini-game, to achieve the perfect score.
+
+
+## About the game
+
+The original mini-game had a hardcoded sequence of eggs and bombs, meaning it was always the same. I decided to deviate from that and implemented a random angle selection. Based on that, I made a projectile calculation to target Kirby. I could improve this AI by ensuring that two trajectories don't arrive simultaneously, but it was good enough for me.
+
+
+## Godot engine
+
+I really liked the engine, especially the signals and the scene-node logic. Porting to HTML was a disappointment. I don't think my game has too many resources, so even if I suck at coding, it shouldn't be this slow. It runs fine as an executable, but for the web, the animations are laggy. I only have about four shaders. I researched after porting and found that for web deployment, it's recommended to use Godot 3.5. However, I'll stick with 4 because I believe in it.
+
+## Try it yourself
+
+You can get the game here [GitHub](https://github.com/VHSpirate/KirbyEggCatcher)
+you can play it here (laggy) [Kirby Egg Catcher](/games/kirby/)

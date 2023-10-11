@@ -3,11 +3,11 @@ const siteMetadata = {
   title: 'Piratadelvhs Blog',
   author: 'Tito Puente',
   headerTitle: 'Bucanero',
-  description: 'Un blog de proyectos y weas',
+  description: 'A blog for sharing thoughs and projects',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/VHSpirate/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/piratelogo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
