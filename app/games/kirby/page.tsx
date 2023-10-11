@@ -11,7 +11,7 @@ export default function GamePage() {
             Kirby Egg Catcher
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            A to START, R to RESTART, W to EAT, good luck.
+            A to START R to RESTART W to EAT good luck
           </p>
         </div>
         <div className="container py-12">
