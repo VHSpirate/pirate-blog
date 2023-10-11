@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Piratadelvhs Blog',
   author: 'Tito Puente',
   headerTitle: 'Bucanero',
-  description: 'A blog for sharing thoughs and projects',
+  description: 'A blog for sharing thoughts and projects',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
