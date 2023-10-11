@@ -15,11 +15,11 @@ export default function GamePage() {
           </p>
         </div>
         <div className="container py-12">
-          <iframe 
-            src="/static/games/kirby/KirbyEggCatcher.html" 
-            width="100%" 
-            height="500px" 
-            frameBorder="0" 
+          <iframe
+            src="/static/games/kirby/KirbyEggCatcher.html"
+            width="100%"
+            height="500px"
+            frameBorder="0"
             title="Kirby Egg Catcher Game"
           ></iframe>
         </div>
